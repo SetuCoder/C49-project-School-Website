@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> My School Website </title>
+<style>
+    div.sticky1 {
+      position: static;
+      top: 0;
+      padding: 50px;
+      font-size: 20px;
+      background-color: rgb(255, 255, 255);
+    }
+
+    div.sticky2 {
+      position: sticky;
+      top: 0;
+      font-size: 20px;
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+    }
+
+   .dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: helvetica; 
+  font-weight:bold
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+</style>
+</head>
+
+<body>
+
+    <div class="sticky1">
+    <a href="https://nvn.edu.in/"><img STYLE="position:absolute; TOP:15px; left:165px;" src="https://nvn.edu.in/wp-content/uploads/2018/08/wp-nvn-196x64.png"/></a>
+
+    <img STYLE="position:absolute; TOP:42px; right:820px;" src="tick.png" alt="tick" width="15" height="15">
+    <a STYLE="position:absolute; TOP:38px; right:675px; color:rgb(231, 113, 113); text-decoration: none; font-family: helvetica" href="https://nvn.edu.in/onlinelessons/">Online Lessons</a>
+
+    <img STYLE="position:absolute; TOP:42px; right:605px;" src="tick.png" alt="tick" width="15" height="15">
+    <a STYLE="position:absolute; TOP:38px; right:500px; color:rgb(231, 113, 113); text-decoration: none; font-family: helvetica" href="http://lms.nalanda.edu.in/">Moodleport</a>
+
+    <img STYLE="position:absolute; TOP:42px; right:430px;" src="tick.png" alt="tick" width="15" height="15">
+    <a STYLE="position:absolute; TOP:38px; right:280px; color:rgb(231, 113, 113); text-decoration: none; font-family: helvetica" href="https://login.microsoftonline.com/?whr=nalanda.edu.in">Microsoft Teams</a>
+
+    <a href="https://www.facebook.com/NalandaEduInst/"><img STYLE="position:absolute; TOP:20px; right:185px;"src="fb.png" width="50" height="50"/></a>
+    <a href="https://www.instagram.com/nalandaed/"><img STYLE="position:absolute; TOP:20px; right:115px;" src="insta.png" width="50" height="50"/></a>
+    <a href="https://www.youtube.com/user/NalandaEdu"><img STYLE="position:absolute; TOP:20px; right:45px;" src="youtube.png" width="50" height="50"/></a>
+    </div>
+
+    <hr>
+
+    <div class="sticky2">
+
+        <a STYLE="position:absolute; TOP:30px; left:160px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="#">Home</a>
+   
+        <div STYLE = "TOP:1px; left:250px;"class="dropdown">
+            <button class="dropbtn" >About Us</button>
+            <div class="dropdown-content">
+              <a href="https://nvn.edu.in/about-us/admissions/">Admissions</a><hr>
+              <a href="https://nvn.edu.in/about-us/board-of-directors/">Board Of Directors</a><hr>
+              <a href="https://nvn.edu.in/about-us/vision-and-mission/">Vision & Mission</a><hr>
+              <a href="https://nvn.edu.in/about-us/principals-message/">Principal's Messaage</a><hr>
+              <a href="https://nvn.edu.in/history/">History</a>
+            </div>
+          </div>
+
+          <div STYLE = "TOP:1px; left:300px;"class="dropdown">
+            <button class="dropbtn">NVN life</button>
+            <div class="dropdown-content">
+              <a href="https://nvn.edu.in/school-life/after-school/">After School</a><hr>
+              <a href="https://nvn.edu.in/school-life/athletics/">Sport</a><hr>
+              <a href="https://nvn.edu.in/school-life/transport/">Transport</a>
+            </div>
+          </div>
+
+          <div STYLE = "TOP:1px; left:350px;"class="dropdown">
+            <button class="dropbtn">Academics</button>
+            <div class="dropdown-content">
+              <a href="https://nvn.edu.in/academics/playschool/">Play School</a><hr>
+              <a href="https://nvn.edu.in/academics/primary-school/">Primary School</a><hr>
+              <a href="https://nvn.edu.in/academics/secondary-school/">Secondary Schol</a><hr>
+              <a href="https://nvn.edu.in/academics/cbse12/">CBSE +1 +2</a><hr>
+              <a href="https://nvn.edu.in/academics/examination-procedure/">Assessment</a>
+            </div>
+          </div>
+
+          <a STYLE="position:absolute; TOP:30px; right:700px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/events">Calender</a>
+          <a STYLE="position:absolute; TOP:30px; right:580px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/contact/">Contact</a>
+          <a STYLE="position:absolute; TOP:30px; right:480px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/blog/">Blog</a>
+          <a STYLE="position:absolute; TOP:30px; right:290px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/onlinelessons">Online Classes</a>
+        </div>
+
+        <h2>(Sample Text only)</h2>
+        <h2>The navbar is sticky!!!</h2>
+        <h2>Hoverable dropdown menus, Clickable links ⬆</h2></body>
+        <h2>Will update with more images and content in part-2</h2>
+
+</html>
